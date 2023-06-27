@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Formulário</title>
+</head>
+<body>
+    <h1>Meu Formulário</h1>
+    
+    <!-- Aqui está o código de incorporação do seu formulário do Google -->
+   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSceqD0Mae6gLkzYCOwSIsGuB7ynOdII2wrAZqijzl33s2-GLw/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+    
+    <script>
+        // Bloquear a função de copiar em todo o documento
+        document.addEventListener('copy', function(event) {
+            event.preventDefault();
+        });
+    </script>
+</body>
+</html>
